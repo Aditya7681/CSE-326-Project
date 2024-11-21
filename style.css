@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to right,#fa1d00, #5801fa);
     font-weight: bold;
+    animation: holo-glow 4s infinite;
     }
     
     .player{
@@ -61,6 +62,9 @@ body {
     flex-direction: row;
     align-items: center;
     margin-bottom: 30px;
+    }
+    buttons:hover{
+      transform: scale(1.5);
     }
     .active{
         color: black;
